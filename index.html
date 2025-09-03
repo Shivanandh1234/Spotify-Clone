@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.png.webp" alt="Spotify" />Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="songlist">
+        <h1 class="h1">Best of Thalapathy Vijay- Music Playlist</h1>
+        <div class="songitemcontainer">
+          <div class="songitem">
+            <img alt="0" />
+            <span class="songName">LEO-Badass</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >03:55<i
+                  id="1"
+                  class="songitemplay fa-solid fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img alt="1" />
+            <span class="songName">Master - Vaathi Coming</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >04:16<i
+                  id="1"
+                  class="songitemplay fa-solid fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img alt="1" />
+            <span class="songName">Mersal - Aalaporan Thamizhan</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >06:16<i
+                  id="2"
+                  class="songitemplay fa-solid fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img alt="1" />
+            <span class="songName">Mersal - Neethanae</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:31<i
+                  id="3"
+                  class="songitemplay fa-solid fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img alt="1" />
+            <span class="songName">Priyamaanavale - Enakkoru Snehidhi</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >04:53<i
+                  id="4"
+                  class="songitemplay fa-solid fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img alt="1" />
+            <span class="songName">Priyamaanavale - Ennavo Ennavo</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >04:48<i
+                  id="5"
+                  class="songitemplay fa-solid fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img alt="1" />
+            <span class="songName">Sarkar - CEO In The House</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >04:04<i
+                  id="6"
+                  class="songitemplay fa-solid fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img alt="1" />
+            <span class="songName">Sarkar - Simtaangaran</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >04:43<i
+                  id="7"
+                  class="songitemplay fa-solid fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img alt="1" />
+            <span class="songName">Thalaivaa - Vaanganna Vanakkanganna</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >04:33<i
+                  id="8"
+                  class="songitemplay fa-solid fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img alt="1" />
+            <span class="songName">Bigil - Verithanam</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >04:06<i
+                  id="9"
+                  class="songitemplay fa-solid fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+        </div>
+      </div>
+      <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myprogressbar"
+        value="0"
+        min="0"
+        max="100"
+      />
+
+      <div class="icons">
+        <!--fontawesome icons-->
+        <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+        <i class="fa-solid fa-3x fa-circle-play" id="masterplay"></i>
+        <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+      </div>
+      <div class="songinfo">
+        <img src="music.gif" width="42px" alt="" id="gif" /><span
+          id="mastersongname"
+        ></span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/eb86fe3c64.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
